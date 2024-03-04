@@ -38,12 +38,11 @@ public class Reservation {
 	@Column(name = "reservation_open_buffet")
 	private String openBuffet;
 
+        @Column(name = "reservation_from_date")
+	private Date arrivalDate;
 	
 	@Column(name = "reservation_stay_days")
 	private int stayDays;
-
-	@Column(name = "reservation_from_date")
-	private Date arrivalDate;
 
 	@Column(name = "reservation_user_id")
 	private int userId;
